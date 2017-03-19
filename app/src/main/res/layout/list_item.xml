@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:paddingBottom="25dp"
+    android:paddingTop="25dp"
+    android:paddingLeft="25dp">
+
+    <ImageView
+        android:id="@+id/ivItem"
+        android:layout_height="116dp"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/app_name"
+        android:layout_width="wrap_content"
+        android:maxWidth="200dp"
+        android:minWidth="130dp"
+        android:minHeight="300dp"
+        android:maxHeight="300dp"
+        android:layout_weight="0.3"
+        />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/ivItem"
+        android:text="prueba"
+        android:textColor="@color/colorAccent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:paddingBottom="5dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="0.7"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvTitle1"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/ivItem"
+        android:text="red"
+        android:textColor="@color/colorPrimary"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:padding="15dp"
+        android:paddingBottom="15dp"
+        android:paddingEnd="15dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="0.7"
+        android:textSize="25sp" />
+
+</LinearLayout>
